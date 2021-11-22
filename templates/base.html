@@ -1,0 +1,24 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'style.css' %}">
+    </head>
+    <body>
+        <!--<div style='position: fixed; top: 0; bottom:0; width: 100vw; height: 100vh; overflow-y: scroll; z-index=100' > -->
+    <!--    <div  style = "background-image: url('static/numeric.jpg'); text-align:center; background-image: linear-gradient(to right, rgba(10,62,133, 0.8), rgba(136,188,221,1))"> -->
+        <div id='header'>
+
+            <h1> ALPHANUMERIC DIGIT CLASSIFIER </h1>
+            <button id='Classifier' onclick="location.href='{% url 'homepage' %}'" type="button">Classifier</button>
+            <button id='Gallery' onclick="location.href='{% url 'gallery' %}'" type="button">Gallery</button>
+
+        </div>
+
+        {% block content %}
+        {% endblock content %}
+
+
+    <body>
+</html>

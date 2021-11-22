@@ -1,0 +1,16 @@
+boto3
+django-storages==1.12.3
+django==3.2.8
+django-cors-headers==3.10.0
+django-dotenv==1.4.2
+django-htmx==1.6.0
+djangorestframework==3.12.4
+gunicorn
+psycopg2-binary
+pint
+whitenoise
+joblib==1.1.0
+numpy==1.21.4
+pandas==1.3.4
+Pillow==8.4.0
+scipy==1.7.2
