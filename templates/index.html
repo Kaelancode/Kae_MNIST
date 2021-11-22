@@ -23,33 +23,20 @@
 
                     <div>
                         <div class='parent'>
-                          <div class='child inline-block-child'>
-                              <form id='draw' action='' method='POST' enctype='multipart/form-data'>
-                                      {% csrf_token %}
-                                      <input type="hidden" name="canvasData" id="hiddenform">
-                                      <!--<input type="submit" name="submit" value="submit" onclick="save()">-->
-                                      <button id='predict'  type="submit" value="submit" onclick="save()">Predict</button>
-                              </form>
-                          </div>
+                              <div class='child inline-block-child'>
+                                  <form id='draw' action='' method='POST' enctype='multipart/form-data'>
+                                          {% csrf_token %}
+                                          <input type="hidden" name="canvasData" id="hiddenform">
+                                          <!--<input type="submit" name="submit" value="submit" onclick="save()">-->
+                                          <button id='predict'  type="submit" value="submit" onclick="save()">Predict</button>
+                                  </form>
+                              </div>
 
-                          <div class='child inline-block-child'>
-                              <button id='dlImage' onclick=''>Download</button>
-                              <button id='resetImage' onclick=''>Reset</button>
-                          </div>
+                              <div class='child inline-block-child'>
+                                  <button id='dlImage' onclick=''>Download</button>
+                                  <button id='resetImage' onclick=''>Reset</button>
+                              </div>
 
-
-                                <!--{{ form.field.as_hidden }} -->
-                            <!--<button type='submit'>submit</button>-->
-
-                        <!--<div  class ='class='parent inline-flex-parent' style='margin-top: 10px; margin-left: 0px; '>
-                            <div style = "text-align:center" class='child'>
-                               <h4 id='Results'>Predictions: {{ result }}</h4>
-                            </div>
-
-                           <div class='child' >
-                              <img id='Drawn' style='max-width: 15%; max-height: 15%' src="{{ image_objects.image.url }}" alt="">
-                          </div>
-                         </div>-->
                         </div>
                     </div>
 
