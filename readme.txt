@@ -1,0 +1,1 @@
+This is a Digit Recognition app build with a basic Neutral Network from scratch  
