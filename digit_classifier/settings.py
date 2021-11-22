@@ -21,12 +21,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-0@6kgwzumv=$g11da62^p$3$cu4kpd9=bb52$8g#!!fo-*!220'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'kaemnist.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -136,14 +136,10 @@ AWS_QUERYSTRING_AUTH = False
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 STATICFILES_STORAGE = 'storages.backends.s3boto3.S3StaticStorage'
 
-#MEDIAFILES_LOCATION = 'media'
-#DEFAULT_FILE_STORAGE = 'custom_storage.MediaStorage'
-#STATICFILES_LOCATION = 'static'
-#STATICFILES_STORAGE = 'custom_storage.StaticStorage'
 
-AWS_SECRET_ACCESS_KEY = 'UNeWnE1DKs15FYnUsp8QZaFJO8gQnVq/9xoFz2pC'
-AWS_ACCESS_KEY_ID = 'AKIAUS6E42LYIGCKI533'
-AWS_STORAGE_BUCKET_NAME = 'digits-objects'
+AWS_SECRET_ACCESS_KEY = ''
+AWS_ACCESS_KEY_ID = ''
+AWS_STORAGE_BUCKET_NAME = ''
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
