@@ -13,7 +13,8 @@ Other features including
 3. Dashboard to provide analytics on the data collected - TBC
 
 ### The project
-
+***
 [Link to Digit Classification App](https://kaemnist.herokuapp.com/)
+
 
 ![alt text](Classifier_Img.PNG "Title")
