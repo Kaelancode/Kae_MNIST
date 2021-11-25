@@ -13,6 +13,9 @@ Other features including
 3. Dashboard to provide analytics on the data collected - TBC
 
 ### The project
+
+<h1 align="center">Material Bread</h1>
+
 ***
 [Link to Digit Classification App](https://kaemnist.herokuapp.com/)
 
