@@ -16,5 +16,4 @@ Other features including
 ***
 [Link to Digit Classification App](https://kaemnist.herokuapp.com/)
 
-
-![alt text](Classifier_Img.PNG "Title")
+![alt text](Classifier_Img.PNG "Canvas")
