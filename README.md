@@ -12,9 +12,7 @@ Other features including
 2. A validator login to validate the images - TBC
 3. Dashboard to provide analytics on the data collected - TBC
 
-### The project
-
-<h1 align="center">Material Bread</h1>
+<h3 align="center">Project View</h1>
 
 ***
 [Link to Digit Classification App](https://kaemnist.herokuapp.com/)
