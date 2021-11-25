@@ -11,6 +11,7 @@ Other features including
 1. Gellery to save and view predicted the images and validate them - Completed 
 2. A validator login to validate the images - TBC
 3. Dashboard to provide analytics on the data collected - TBC
+4.  To implement model build with Emnist data sothat it can recognize alphabets - TBC
 
 <h3 align="center">Project View</h1>
 
