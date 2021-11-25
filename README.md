@@ -18,4 +18,4 @@ Other features including
 
 ![alt text](Canvas.PNG "Canvas")
 
-![alt text](Gallery.PNG "Canvas")
+![alt text](Gallery.PNG "Gallery")
