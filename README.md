@@ -6,8 +6,8 @@ MNIST is a very common project and many learner found that can get a high accura
 Details on building model:
 [Demo Notebook with Augemented Mnist](https://github.com/Kaelancode/Kaerebrum-Public/blob/main/Augment%20Mnist%20with%20Kaerebrum.ipynb)
 
-So this model that will be built on augmented data by altering the existing MNIST dataset.
-Other feature including 
+Therefore this model that will be built on augmented data by altering the existing MNIST dataset.
+Other features including 
 1. Gellery to save and view predicted the images and validate them - Completed 
 2. A validator login to validate the images - TBC
 3. Dashboard to provide analytics on the data collected - TBC
